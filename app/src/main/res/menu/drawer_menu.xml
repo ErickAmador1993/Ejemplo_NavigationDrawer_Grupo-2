@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Principal">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="PAGINA PRINCIPAL"/>
+
+            <item
+                android:id="@+id/personas"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="USUARIOS"/>
+
+            <item
+                android:id="@+id/creditos"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="CREDITOS"/>
+        </menu>
+    </item>
+</menu>
